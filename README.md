@@ -9,10 +9,15 @@ AnotherKafkaMonitor
 * [Quick Look](https://github.com/triffic-tang/AnotherKafkaMonitor#quick-look)
     * [DashBoard](https://github.com/triffic-tang/AnotherKafkaMonitor#1-dashboard)
     * [Topic List](https://github.com/triffic-tang/AnotherKafkaMonitor#2-topic-list)
-
+    * [Cluster Info](https://github.com/triffic-tang/AnotherKafkaMonitor#3-cluster-info)
+    * [Consumers](https://github.com/triffic-tang/AnotherKafkaMonitor#4-consumers)
+    * [Alarm Configuration](https://github.com/triffic-tang/AnotherKafkaMonitor#5-alarm-configuration)
+    * [Zookeeper Client](https://github.com/triffic-tang/AnotherKafkaMonitor#6-zookeeper-client)
 * [Difference Between KafkaOffsetMonitor And AnotherKafkaMonitor](https://github.com/triffic-tang/AnotherKafkaMonitor#difference)
+* [Future Plan](https://github.com/triffic-tang/AnotherKafkaMonitor#future-plan)
+* [Contributing](https://github.com/triffic-tang/AnotherKafkaMonitor#contributing)
 
-
+------
 
 ## Inspiration
 AnotherKafkaMonitor is an app which used to monitor kafka producer and consumer progress inspried by [KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor). It aims to help you figure out what's going on in your kafka cluster, that's to say, to understand how fast the producer send message to the kafka or whether the consumer is far behind the producer or not, if lag exceeds threshold, you will be noticed through alarm email.
