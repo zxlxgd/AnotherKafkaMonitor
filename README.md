@@ -38,5 +38,18 @@ Dashboard lists some general info:
 ![Alarm List](/WebContent/media/readmepic/akm-alarmadd.png)
 
 ### 6. Zookeeper Client
->Support simple shell comand, such as ls, get and delete
+>Support simple shell comand, such as ```ls, get and delete```
+
 ![Zookeeper Client](/WebContent/media/readmepic/akm-zkshell.png)
+
+## How to install
+Several ways can be taken if you want to try
+* Simple download `AnotherKafkaMonitor.war` and take a quickstart
+> 1. Extract `AnotherKafkaMonitor.war` into default folder called `AnotherKafkaMonitor`
+2. Edit file which located in path of `\AnotherKafkaMonitor\WEB-INF\classes\system-config.properties` according your Zookeeper and Kafka Cluster
+3. Move folder `AnotherKakfaMonitor` to `<TOMCAT_HOME>\webapp`
+4. Start tomcat, type `http:localhost:<TOMCAT_HTTP_PORT>/AnotherKafkaMonitor` into browser, please enjoy.
+
+* Maybe you want to make some change for your favour
+> 1. Download the `zip` file
+2. Import into your IDE, like `Eclipse` or others as you like
