@@ -9,5 +9,7 @@ AnotherKafkaMonitor is an app which used to monitor kafka producer and consumer 
 ## Quick Look
 Now, we are going to show you some screenshot of main featrues about [AnotherKafkaMonitor]()
 
-### DashBoard
+### 1. DashBoard
+Dashboard lists some general info:
+* How many kafka ***Brokers, Topics, Zookeepers*** and ***Consumers*** you hava in cluster
 ![DashBoard](/WebContent/media/readmepic/akm-dashboard.png)
