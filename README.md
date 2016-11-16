@@ -13,3 +13,13 @@ Now, we are going to show you some screenshot of main featrues about [AnotherKaf
 Dashboard lists some general info:
 * How many kafka ***Brokers, Topics, Zookeepers*** and ***Consumers*** you hava in cluster
 ![DashBoard](/WebContent/media/readmepic/akm-dashboard.png)
+
+### 2. Topic List
+* List Topics you have created
+* List Partition Indexes of each topic
+![Topic List](/WebContent/media/readmepic/akm-topiclist.png)
+
+### 3. Cluster Info
+* Kafka Broker List
+* Zookeeper List
+![Cluster Info](/WebContent/media/readmepic/akm-clusterinfo.png)
