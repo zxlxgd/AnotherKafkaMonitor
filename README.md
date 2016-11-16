@@ -5,10 +5,13 @@ AnotherKafkaMonitor
 -------
 ## Table Of Contents
 [Inspiration](https://github.com/triffic-tang/AnotherKafkaMonitor#inspiration)
+
 [How To Install](https://github.com/triffic-tang/AnotherKafkaMonitor#how-to-install)
+
 [Quick Look](https://github.com/triffic-tang/AnotherKafkaMonitor#quick-look)
 * [DashBoard](https://github.com/triffic-tang/AnotherKafkaMonitor#1-dashboard)
 * [Topic List](https://github.com/triffic-tang/AnotherKafkaMonitor#2-topic-list)
+
 [Difference Between KafkaOffsetMonitor And AnotherKafkaMonitor](https://github.com/triffic-tang/AnotherKafkaMonitor#difference)
 
 
