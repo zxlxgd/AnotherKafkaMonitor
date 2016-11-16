@@ -2,11 +2,21 @@ AnotherKafkaMonitor
 ===========
 
 ![Build Status](/WebContent/media/readmepic/build-passing.png)
+-------
+## Table Of Contents
+[Inspiration](https://github.com/triffic-tang/AnotherKafkaMonitor#inspiration)
+[How To Install](https://github.com/triffic-tang/AnotherKafkaMonitor#how-to-install)
+[Quick Look](https://github.com/triffic-tang/AnotherKafkaMonitor#quick-look)
+* [DashBoard](https://github.com/triffic-tang/AnotherKafkaMonitor#1-dashboard)
+* [Topic List](https://github.com/triffic-tang/AnotherKafkaMonitor#2-topic-list)
+[Difference Between KafkaOffsetMonitor And AnotherKafkaMonitor](https://github.com/triffic-tang/AnotherKafkaMonitor#difference)
+
+
 
 ## Inspiration
 AnotherKafkaMonitor is an app which used to monitor kafka producer and consumer progress inspried by [KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor). It aims to help you figure out what's going on in your kafka cluster, that's to say, to understand how fast the producer send message to the kafka or whether the consumer is far behind the producer or not, if lag exceeds threshold, you will be noticed through alarm email.
 
-## How to install
+## How To Install
 Several ways can be taken if you want to try
 * Simple download `AnotherKafkaMonitor.war` and take a quickstart
 
@@ -60,7 +70,7 @@ Dashboard lists some general info:
 ## Difference
 We are going to list the difference between [KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor) and [AnotherKafkaMonitor](https://github.com/triffic-tang/AnotherKafkaMonitor)
 * AnotherKafkaMonitor is much lightweight compared with KafkaOffsetMonitor;
-* AnotherKafkaMonitor is implemented by `Java`, not `Scala` which KafkaOffsetMonitor be implemented.
+* AnotherKafkaMonitor is implemented by `Java`, Not `Scala` which KafkaOffsetMonitor be implemented.
 
 ## Future Plan
 We are going to make some big step in the future, like below(JUST FOR NOW):
