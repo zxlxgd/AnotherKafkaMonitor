@@ -23,3 +23,20 @@ Dashboard lists some general info:
 * Kafka Broker List
 * Zookeeper List
 ![Cluster Info](/WebContent/media/readmepic/akm-clusterinfo.png)
+
+### 4. Consumers
+* List how many consumer group you have
+* The topic(s) consumed by each consumer group
+* RealTime process rate about producer and consumer of one topic
+![Consumers](/WebContent/media/readmepic/akm-consumers.png)
+![Topic Detail](/WebContent/media/readmepic/akm-topicsdetail.png)
+![Topic Realtime](/WebContent/media/readmepic/akm-realtime.png)
+
+### 5. Alarm Configuration
+* Alarm notice list
+* Add alarm notice
+![Alarm List](/WebContent/media/readmepic/akm-alarmadd.png)
+
+### 6. Zookeeper Client
+>Support simple shell comand, such as ls, get and delete
+![Zookeeper Client](/WebContent/media/readmepic/akm-zkshell.png)
