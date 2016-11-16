@@ -46,12 +46,12 @@ Dashboard lists some general info:
 Several ways can be taken if you want to try
 * Simple download `AnotherKafkaMonitor.war` and take a quickstart
 
-> 1. Extract `AnotherKafkaMonitor.war` into default folder called `AnotherKafkaMonitor`
-2. Edit file which located in path of `\AnotherKafkaMonitor\WEB-INF\classes\system-config.properties` according your Zookeeper and Kafka Cluster
-3. Move folder `AnotherKakfaMonitor` to `<TOMCAT_HOME>\webapp`
-4. Start tomcat, type `http:localhost:<TOMCAT_HTTP_PORT>/AnotherKafkaMonitor` into browser, please enjoy.
+> 1. Extract `AnotherKafkaMonitor.war` into default folder called `AnotherKafkaMonitor`;
+2. Edit file which located in path of `\AnotherKafkaMonitor\WEB-INF\classes\system-config.properties`, In corresponding with your Zookeeper and Kafka Cluster Environment;
+3. Move folder `AnotherKakfaMonitor` to `<TOMCAT_HOME>\webapp`;
+4. Start tomcat, type `http://localhost:<TOMCAT_HTTP_PORT>/AnotherKafkaMonitor` into browser, please enjoy.
 
-* Maybe you want to make some change for your favour
+* Maybe you want to make some change for your taste
 
-> 1. Download the `zip` file
-2. Import into your IDE, like `Eclipse` or others as you like
+> 1. Download the `zip` file;
+2. Import into your IDE, like `Eclipse` or others as you like.
