@@ -3,11 +3,25 @@ AnotherKafkaMonitor
 
 ![Build Status](/WebContent/media/readmepic/build-passing.png)
 
-## Preface
+## Inspiration
 AnotherKafkaMonitor is an app which used to monitor kafka producer and consumer progress inspried by [KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor). It aims to help you figure out what's going on in your kafka cluster, that's to say, to understand how fast the producer send message to the kafka or whether the consumer is far behind the producer or not, if lag exceeds threshold, you will be noticed through alarm email.
 
+## How to install
+Several ways can be taken if you want to try
+* Simple download `AnotherKafkaMonitor.war` and take a quickstart
+
+> 1. Extract `AnotherKafkaMonitor.war` into default folder called `AnotherKafkaMonitor`;
+2. Edit file which located in path of `\AnotherKafkaMonitor\WEB-INF\classes\system-config.properties`, In corresponding with your Zookeeper and Kafka Cluster Environment;
+3. Move folder `AnotherKakfaMonitor` to `<TOMCAT_HOME>\webapp`;
+4. Start tomcat, type `http://localhost:<TOMCAT_HTTP_PORT>/AnotherKafkaMonitor` into browser, please enjoy.
+
+* Maybe you want to make some change for your taste
+
+> 1. Download the `zip` file;
+2. Import into your IDE, like `Eclipse` or others as you like.
+
 ## Quick Look
-Now, we are going to show you some screenshot of main featrues about [AnotherKafkaMonitor]()
+Now, we are going to show you some screenshot of main featrues about [AnotherKafkaMonitor](https://github.com/triffic-tang/AnotherKafkaMonitor)
 
 ### 1. DashBoard
 Dashboard lists some general info:
@@ -42,16 +56,17 @@ Dashboard lists some general info:
 
 ![Zookeeper Client](/WebContent/media/readmepic/akm-zkshell.png)
 
-## How to install
-Several ways can be taken if you want to try
-* Simple download `AnotherKafkaMonitor.war` and take a quickstart
 
-> 1. Extract `AnotherKafkaMonitor.war` into default folder called `AnotherKafkaMonitor`;
-2. Edit file which located in path of `\AnotherKafkaMonitor\WEB-INF\classes\system-config.properties`, In corresponding with your Zookeeper and Kafka Cluster Environment;
-3. Move folder `AnotherKakfaMonitor` to `<TOMCAT_HOME>\webapp`;
-4. Start tomcat, type `http://localhost:<TOMCAT_HTTP_PORT>/AnotherKafkaMonitor` into browser, please enjoy.
+## Difference
+We are going to list the difference between [KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor) and [AnotherKafkaMonitor](https://github.com/triffic-tang/AnotherKafkaMonitor)
+* AnotherKafkaMonitor is much lightweight compared with KafkaOffsetMonitor;
+* AnotherKafkaMonitor is implemented by `Java`, not `Scala` which KafkaOffsetMonitor be implemented.
 
-* Maybe you want to make some change for your taste
+## Future Plan
+We are going to make some big step in the future, like below(JUST FOR NOW):
+* Add `SMS` notice module;
+* Support more shell command in the future
+* ...
 
-> 1. Download the `zip` file;
-2. Import into your IDE, like `Eclipse` or others as you like.
+## Contributing
+The AnotherKafkaMonitor is released under the Apache License and we welcome any contributions within this license. Any pull request is welcome and will be reviewed and merged as quickly as possible.
