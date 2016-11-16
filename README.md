@@ -24,7 +24,7 @@ AnotherKafkaMonitor is an app which used to monitor kafka producer and consumer 
 
 ## How To Install
 Several ways can be taken if you want to try
-* Simple download `AnotherKafkaMonitor.war` and take a quickstart
+* Simple download [AnotherKafkaMonitor.war](https://github.com/triffic-tang/AnotherKafkaMonitor/blob/master/AnotherKafkaMonitor.war) and take a quickstart
 
 > 1. Extract `AnotherKafkaMonitor.war` into default folder called `AnotherKafkaMonitor`;
 2. Edit file which located in path of `\AnotherKafkaMonitor\WEB-INF\classes\system-config.properties`, In corresponding with your Zookeeper and Kafka Cluster Environment;
