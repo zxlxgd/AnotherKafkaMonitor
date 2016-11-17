@@ -19,8 +19,14 @@ AnotherKafkaMonitor
 
 ------
 
+Also you can take a quick look before take action(**SOME ADDITIONAL INFO**), click->[Anotherkafkamonitor Manul Book](https://triffic-tang.gitbooks.io/anotherkafkamonitor-manuk-book/content/)
+
 ## Inspiration
 AnotherKafkaMonitor is an app which used to monitor kafka producer and consumer progress inspried by [KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor). It aims to help you figure out what's going on in your kafka cluster, that's to say, to understand how fast the producer send message to the kafka or whether the consumer is far behind the producer or not, if lag exceeds threshold, you will be noticed through alarm email.
+
+## Kafka DataStructure In Zookeeper
+The Implementation Of AnotherKafkaMonitor Relys On the Datastructure of Kafka In Zookeeper
+![Kafka DataStructure In Zookeeper](/WebContent/media/readmepic/kafka_in_zookeeper.png)
 
 ## How To Install
 Several ways can be taken if you want to try
