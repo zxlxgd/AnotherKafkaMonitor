@@ -20,7 +20,7 @@ AnotherKafkaMonitor
 
 ------
 
-Also you can take a quick look before take action(**SOME ADDITIONAL INFO**), click->[Anotherkafkamonitor Manul Book](https://triffic-tang.gitbooks.io/anotherkafkamonitor-manuk-book/content/)
+Also you can take a quick look before take action(**SOME ADDITIONAL INFO**), **CLICK**->[Anotherkafkamonitor Manul Book](https://triffic-tang.gitbooks.io/anotherkafkamonitor-manuk-book/content/)
 
 ------
 
